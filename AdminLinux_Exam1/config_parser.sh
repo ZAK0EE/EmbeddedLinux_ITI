@@ -13,10 +13,11 @@ then
     exit 1
 fi
 
+# Print the key value if found in config.ini
 if [ -v $1 ]
 then 
 	echo ${!1}	
 else 
-	echo "var is unset"	
+	echo "Var is unset"	
 fi
 
