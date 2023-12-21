@@ -57,5 +57,3 @@ S bit allows the others to run the file as if it's the owner, because it's root 
 Elevated Privileges: passwd needs to write changes to system files (e.g., /etc/passwd, /etc/shadow) that regular users don't have permission to modify. Setting the setuid bit allows a user to change their password without needing write permissions to those sensitive files.
 Temporary Privilege Elevation: It temporarily elevates the user's permissions to perform specific actions (like changing passwords) that require elevated access.
 ![image](https://github.com/ZAK0EE/EmbeddedLinux_ITI/assets/82421473/c7427ca4-4949-4f15-87ff-009e7bfebb9e)
-
-
